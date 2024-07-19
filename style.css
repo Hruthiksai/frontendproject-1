@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color:hsl(0, 0%, 100%) ;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+    background-color: hsl(233, 47%, 7%);
+    color: white;
+    font-size: 15px;
+}
+.main{
+    display: flex;
+
+
+    width: 60vw;
+    height: 50vh;
+    background-color:hsl(244, 38%, 16%) ;
+    border-radius: 8px;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 40px;
+}
+.left{
+    height: 100%;
+    width: 50%;
+    padding: 30px 50px 30px 50px;
+}
+.right{
+    background-image: url(./images/image-header-desktop.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 50%;
+    border-top-right-radius:8px;
+    border-bottom-right-radius:8px;
+    /* fill-opacity: 0.5; */
+    /* background-blend-mode: lighten;
+    backface-visibility: hidden; */
+/* filter: opacity(); */
+
+background-color: hsl(277, 64%, 61%);
+background-blend-mode: multiply;
+}
+h1>span{
+    color: hsl(277, 64%, 61%);
+    font-family: "Inter", sans-serif;
+    
+}
+h1{
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 0.6rem;
+}
+
+
+.sub{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+
+
+}
+.sub-sub{
+    width: 20%;
+    flex-direction: column;
+    display: flex;
+    /* align-content: space-between; */
+}
+.sub-sub>span{
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+
+}
+.sub-sub>p{
+    font-size: 0.6rem;
+
+}
+
+.attribution>a{
+    color:hsl(277, 64%, 61%); 
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: "Inter", sans-serif;
+}
+.attribution{
+    font-family: "Inter", sans-serif;
+}
+
+
